@@ -19,7 +19,7 @@ public class Contacts
 	  {
 		 driver = new FirefoxDriver();
 		 driver.manage().window().maximize();
-		 driver.get("http://54.145.136.153:7071/addressbook/");
+		 driver.get("http://54.224.151.132:7071/addressbook/");
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 new Actions(driver).moveToElement(driver.findElement(By.xpath("//span[text()='New contact']"))).click().perform();
 		 
